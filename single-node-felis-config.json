@@ -1,0 +1,22 @@
+{
+  "type": "status_change",
+  "status": "configuring",
+  "mem": {
+  },
+  "nodes": [
+    {
+      "name": "host1",
+      "ssh_hostname": "c$NODE_NUM",
+      "worker": {"host": "142.150.234.$NODE_NUM", "port": 1091},
+      "index_shipper": {"host": "142.150.234.NODE_NUM", "port": 43411}
+    }
+  ],
+  "tpcc": {
+    "hot_warehouses": [],
+    "offload_nodes": []
+  },
+  "controller": {
+    "http_port": 8666,
+    "rpc_port": 3148
+  }
+}

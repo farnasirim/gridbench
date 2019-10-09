@@ -1,0 +1,1 @@
+buck-out/gen/db#release -c 127.0.0.1:3148 -n host1 -w ycsb -Xcpu32 -Xmem32G -XYcsbContentionKey4 -XVHandleBatchAppend -XYcsbSkewFactor30 -XCoreScaling2 -XVHandleParallel16

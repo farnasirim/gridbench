@@ -1,0 +1,26 @@
+iteration: 1
+{"YcsbSkewFactor": 30, "VHandleParallel": 2, "YcsbContentionKey": 4, "CoreScaling": 2, "machine": "c179"}
+
+/tmp/tmp.etoV2n8qO8
+/mnt/home/farnasirim/workspace/felis-benchmarks/skew-core-scaling/c179-1570601400
+in remote: 'c179 buck-out/gen/db#release -c 127.0.0.1:3148 -n host1 -w ycsb -Xcpu32 -Xmem32G -XYcsbContentionKey4 -XVHandleBatchAppend -XYcsbSkewFactor30 -XCoreScaling2 -XVHandleParallel2'
+waiting for felis-controller
+
+
+done
+the line is:
+local=1 meta='{"YcsbSkewFactor": 30, "VHandleParallel": 2, "YcsbContentionKey": 4, "CoreScaling": 2, "machine": "c179"}' ./run-job.sh c179 buck-out/gen/db#release -c 127.0.0.1:3148 -n host1 -w ycsb -Xcpu32 -Xmem32G -XYcsbContentionKey4 -XVHandleBatchAppend -XYcsbSkewFactor30 -XCoreScaling2 -XVHandleParallel2
+
+
+incr x to: 2
+iteration: 2
+{"YcsbSkewFactor": 30, "VHandleParallel": 2, "YcsbContentionKey": 4, "CoreScaling": 6, "machine": "c179"}
+
+done
+the line is:
+local=1 meta='{"YcsbSkewFactor": 30, "VHandleParallel": 2, "YcsbContentionKey": 4, "CoreScaling": 6, "machine": "c179"}' ./run-job.sh c179 buck-out/gen/db#release -c 127.0.0.1:3148 -n host1 -w ycsb -Xcpu32 -Xmem32G -XYcsbContentionKey4 -XVHandleBatchAppend -XYcsbSkewFactor30 -XCoreScaling6 -XVHandleParallel2
+
+
+incr x to: 3
+iteration: 3
+{"YcsbSkewFactor": 30, "VHandleParallel": 2, "YcsbContentionKey": 4, "CoreScaling": 11, "machine": "c179"}

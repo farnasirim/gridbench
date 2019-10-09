@@ -1,0 +1,8 @@
+Listening on 3148
+Browser access on 8666
+Starting Felis Server
+Starting Http Server
+Server all initialized.
+Felis node 127.0.0.1:37278 connected.
+{"host":"host1","type":"OK"}
+Felis node 127.0.0.1:37278 disconnected.

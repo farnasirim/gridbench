@@ -1,0 +1,5 @@
+JVMSHRC831E Failed to use user's home as the default shared cache directory. It is on a Network File System. Cannot get home directory. Please set another directory via environment variable "HOME" or command line option "cacheDir=", or fix the home directory in the password file entry.
+[7/37] FelisController.sources 
+[1A[2K[9999D[12/37] FelisController.resources 
+[1A[2K[9999D[37/37] FelisController.run 
+JVMSHRC831E Failed to use user's home as the default shared cache directory. It is on a Network File System. Cannot get home directory. Please set another directory via environment variable "HOME" or command line option "cacheDir=", or fix the home directory in the password file entry.
